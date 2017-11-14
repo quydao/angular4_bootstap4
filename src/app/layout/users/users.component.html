@@ -1,0 +1,64 @@
+<div [@routerTransition]>
+    <app-page-header [heading]="'User List'" [icon]="'fa-wrench'"></app-page-header>
+    <!--Form Search -->
+    <form role="form">
+        <div class="row">
+            <div class="col-lg-4 ">
+                <!--User ID-->
+                <div class="form-group row">
+                    <label for="inputUserID" class="col-lg-3 col-form-label">User ID</label>
+                    <div class="col-lg-9">
+                        <input type="text" class="form-control" id="inputUserID">
+                    </div>
+                </div>
+                <!--User Name-->
+                <div class="form-group row">
+                    <label for="inputUserID" class="col-lg-3 col-form-label">User Name</label>
+                    <div class="col-lg-9">
+                        <input type="text" class="form-control" id="inputUserName">
+                    </div>
+                </div>
+                <!--User Type-->
+                <div class="form-group row">
+                    <label for="inputUserType" class="col-lg-3 col-form-label">User Type</label>
+                    <div class="col-lg-9">
+                        <select id="disabledSelect" class="form-control">
+                            <option>Email</option>
+                            <option>Facebook ID</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 ">
+                <!--User Type-->
+                <div class="form-group row">
+                    <label for="inputUserType" class="col-lg-3 col-form-label">Gender</label>
+                    <div class="col-lg-9">
+                        <select id="disabledSelect" class="form-control">
+                            <option>Nam</option>
+                            <option>Nữ</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="form-group row">
+                    <label for="inputUserType" class="col-lg-2 col-form-label">Gender</label>
+                    <div class="col-lg-9">
+                        <!--<selectpicker title="plese select" />-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--BTN Search-->
+        <div class="span6 text-right">
+            <button type="button" class="btn btn-primary">Search</button>
+        </div>
+    </form>
+
+
+    <!--Res search-->
+    
+</div>
